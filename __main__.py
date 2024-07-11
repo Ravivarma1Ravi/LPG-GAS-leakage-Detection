@@ -1,7 +1,3 @@
-"""Command line program for gas detection."""
-
-# pylint: disable=C0103
-# pylint: disable=R0201
 
 import argparse
 import time
@@ -11,7 +7,7 @@ from . import ADS1015, ADS1115
 from . import P0, ADDRESS
 
 def main():
-    """Handle command line program."""
+   
 
     parser = argparse.ArgumentParser(
         prog=__package__,
